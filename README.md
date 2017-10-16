@@ -9,131 +9,154 @@ And I like pears.
 <th>Alfa</th>
 <th>Béta</th>
 </tr>
-<tr>
-<td>
 
-Sor változtatása a `README.md`-ben.
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
 
-```bat
-git add README.md
-git commit -m"alfa 1 változtatás"
-```
+- Új repo létrehozása a Github-on
+- Béta felvétele (Settings/Collaborators/Add collaborator)
 
-</td>
-<td>
+</td><td><!-- Béta -->
 
-Sor változtatása a `README.md`-ben.
 
-```bat
-git add README.md
-git commit -m"alfa 1 változtatás"
-```
 
-</td>
-</tr>
-<tr>
-<td>
+</td></tr>
+<!-- Sor vége -->
 
-</td>
-<td>
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
 
-</td>
-</tr>
-<tr>
-<td>
+...
 
-</td>
-<td>
+</td><td><!-- Béta -->
 
-</td>
-</tr>
-<tr>
-<td>
+...
 
-</td>
-<td>
+</td></tr>
+<!-- Sor vége -->
 
-</td>
-</tr>
-<tr>
-<td>
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
 
-</td>
-<td>
+- `fruits.txt` fájl 3. sorának szerkesztése
+- `git add fruits.txt`
+- `git commit -m"alfa 1. módosítás"`
+- `fruits.txt` fájl 3. sorának szerkesztése
+- `git add fruits.txt`
+- `git commit -m"alfa 2. módosítás"`
 
-</td>
-</tr>
-<tr>
-<td>
+</td><td><!-- Béta -->
 
-</td>
-<td>
+- `fruits.txt` fájl 3. sorának szerkesztése
+- `git add fruits.txt`
+- `git commit -m"béta 1. módosítás"`
+- `fruits.txt` fájl 3. sorának szerkesztése
+- `git add fruits.txt`
+- `git commit -m"béta 2. módosítás"`
 
-</td>
-</tr>
-<tr>
-<td>
+</td></tr>
+<!-- Sor vége -->
 
-</td>
-<td>
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
 
-</td>
-</tr>
-<tr>
-<td>
+- `git push`
+- OK
 
-</td>
-<td>
+</td><td><!-- Béta -->
 
-</td>
-</tr>
-<tr>
-<td>
 
-</td>
-<td>
 
-</td>
-</tr>
-<tr>
-<td>
+</td></tr>
+<!-- Sor vége -->
 
-</td>
-<td>
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
 
-</td>
-</tr>
-<tr>
-<td>
 
-</td>
-<td>
 
-</td>
-</tr>
-<tr>
-<td>
+</td><td><!-- Béta -->
 
-</td>
-<td>
+- `git push`
+- Rejected, mivel az origin előrébb van
+- `git pull --rebase`
+- Conflict 1.
+- `git status`
+- Konfliktus feloldása (VSCode segít, de gyakorlatilag a fájl szerkesztése)
+- `git add fruits.txt`
+- `git status`
+- `git rebase --continue`
+- Conflict 2.
+- `git status`
+- Konfliktus feloldása
+- `git add fruits.txt`
+- `git status`
+- `git rebase --continue`
+- `git push`
 
-</td>
-</tr>
-<tr>
-<td>
+</td></tr>
+<!-- Sor vége -->
 
-</td>
-<td>
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
 
-</td>
-</tr>
-<tr>
-<td>
+- `git pull --rebase`
 
-</td>
-<td>
+</td><td><!-- Béta -->
 
-</td>
-</tr>
+
+
+</td></tr>
+<!-- Sor vége -->
+
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
+
+
+
+</td><td><!-- Béta -->
+
+
+
+</td></tr>
+<!-- Sor vége -->
+
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
+
+
+
+</td><td><!-- Béta -->
+
+
+
+</td></tr>
+<!-- Sor vége -->
+
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
+
+
+
+</td><td><!-- Béta -->
+
+
+
+</td></tr>
+<!-- Sor vége -->
+
+<!-- Új sor -->
+<tr><td><!-- Alfa -->
+
+
+
+</td><td><!-- Béta -->
+
+
+
+</td></tr>
+<!-- Sor vége -->
+
+
   
 </table>
